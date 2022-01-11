@@ -1,0 +1,57 @@
+<!--I have yet to make it compatible with mobile devices, if I ever plan to.-->
+<html>
+    <head>
+        <title>Math Quiz</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="quiz_game.css">
+
+        <script src="quiz_game_login.js"></script>
+    </head>
+
+    <body>
+        <nav class="navbar-inverse" id="header1" style="position:sticky;top:0;z-index:99999">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Math_Wiz</a>
+            </div>
+    
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <!--This was purposefully left empty.-->
+            </div>
+        </nav>
+
+        <center id="login_section">
+        <h1>Math Quiz</h1>
+        <div>
+            <h3>Player 1's Login</h3>
+            <input style="width: 30%" type="text" id="player1_name_input" class="form-control" placeholder="Player 1 Name">
+        </div>
+        <div>
+            <h3>Player 2's Login</h3>
+            <input style="width: 30%" type="text" id="player2_name_input" class="form-control" placeholder="Player 2 Name">
+        </div>
+        <br>
+        <button id="login_button" class="btn btn-primary" onclick="addUser();">Log In</button>
+        </center>
+
+        <center id="left-side">
+            <h1 style="color: #ffffff;">Remember:</h1>
+            <p style="color: #ffffff; cursor: pointer;" id="tidbit_display" onclick="setTidbit()">It's okay to make mistakes, as long as you learn from them. The same applies to math!</p>
+        </center>
+
+        <center id="right-side">
+            <h1 style="color: #ffffff;">Fun Fact:</h1>
+            <p style="color: #ffffff; cursor: pointer;" id="funfact_display" onclick="setFunFact()">Think of a number. Double it. Add six. Half it. Take away the number you started with. Your answer is three.</p>
+        </center>
+    </body>
+</html>

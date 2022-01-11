@@ -1,0 +1,68 @@
+#login_section
+{
+    background-color: #651d74de;
+    color: #ffffff;
+    margin-left: 750px;
+    margin-right: 750px;
+    margin-top: 100px;
+    padding: 25px;
+    border-radius: 25px;
+    border: 5px solid #ffffff;
+}
+
+body
+{
+    background-image: url("mountainsHD.jpg");
+    background-size: cover;
+}
+
+.navbar-inverse
+{
+    background-color: #000000;
+}
+
+.navbar-inverse a 
+{
+    color: #ffffff !important;
+    -webkit-tap-highlight-color: #0000ff !important;
+}
+
+.form-control
+{
+    width: 75% !important;
+    border: none !important;
+    border-bottom: 3px solid #000000 !important;
+}
+
+#login_button 
+{
+    background-color: #ffffff;
+    border: 1.75px solid #000000;
+    color: #000000 !important;
+}
+
+#left-side 
+{
+    margin-right: 1250px;
+    margin-top: -250px;
+    background-color: #651d74de;
+    padding: 25px;
+    border-radius: 25px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border: 7.5px solid #461450de;
+    border-left: none !important;
+}
+
+#right-side
+{
+    background-color: #651d74de;
+    margin-left: 1250px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border: 7.5px solid #461450de;
+    border-radius: 25px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right: none !important;
+}
